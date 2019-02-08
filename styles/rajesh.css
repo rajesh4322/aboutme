@@ -1,0 +1,77 @@
+body{
+    background-repeat:no-repeat;
+    background-size:cover;   
+
+}
+
+header{
+    color: blue;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    background-color:whitesmoke;
+}
+
+.row{
+    border: 0;
+    border-radius: 20px;
+    margin-top: 1em;
+}
+
+section{
+    border-style: dotted;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 20px;
+    border-color:rgb(24, 23, 23);
+    background-color:lightgoldenrodyellow;
+} 
+
+table, th, td {
+    border: 1px groove black;
+  }
+
+
+  aside{
+
+  }
+
+  #image_1{
+    padding: 2em;
+    margin: 1em;    
+}
+#imgshape{
+    border-radius: 50%;
+}
+
+footer{
+    color: blue;
+}
+
+#ft{
+    color:rgb(36, 197, 122);
+}
+
+.form1{
+    background-color:rgb(211, 211, 211);
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 4em;
+}
+input,textarea{
+    width: 100%;
+    padding: 1em;
+    border-style: solid;
+    border-color:rgb(39, 39, 39);
+}
+
+#submit{
+    width:10%;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background: skyblue;
+    color:white;
+    border-radius: 10px;
+}
