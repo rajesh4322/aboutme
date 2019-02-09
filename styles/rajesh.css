@@ -75,3 +75,8 @@ input,textarea{
     color:white;
     border-radius: 10px;
 }
+#head
+{
+    padding:1rem;
+    color:black;
+}
