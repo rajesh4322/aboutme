@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./styles/rajesh.css">
+<script src="public.js"></script>
+
 </head>
 
 <body background="lebron.jpg">
@@ -66,7 +68,7 @@
     </h1>
     </header>
     <p id="color"> Select your Country</p>
-    <select>
+    <select> 
             <option value="India">India</option>
             <option value="USA">USA</option>
             <option value="Canada">Canada</option>
@@ -76,17 +78,12 @@
           </select>
     <p>
             <label id="color">Fahrenheit</label>
-            <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+            <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" value="0"
             oninput="temperatureConverter(this.value)"
             onchange="temperatureConverter(this.value)">
           </p>
           <p id="color">Celsius: <span id="outputCelsius"></span></p>
-          <script>
-          function temperatureConverter(valNum) {
-            valNum = parseFloat(valNum);
-            document.getElementById("outputCelsius").innerHTML = (valNum-32) / 1.8;
-          }     
-          </script>     
+     
           <footer>
                 <b>
                         &copy; 2019 Rajesh Tarigopula
