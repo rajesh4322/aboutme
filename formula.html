@@ -104,6 +104,14 @@
     <button type="button" onclick="loadDoc()">rename content</button>
   </div>
   <script>
+    function temperatureConverter(valNum){
+      const x= valNum * 1.8 +32
+      document.getElementById("outputCelsius").innerHTML=x
+      localStorage.setItem('the value in celsius is',x)
+      return x
+      localStorage.setItem('inputFahrenheit',)
+    }
+ 
     function loadDoc() {
       var xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = function () {
